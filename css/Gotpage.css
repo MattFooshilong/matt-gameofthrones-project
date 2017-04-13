@@ -1,0 +1,124 @@
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*Nav bar*/
+ul.top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+ul.top li {
+    float: left;
+}
+ul.top li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+   
+}
+
+ul.top li a:hover {
+    text-decoration: underline;
+}
+
+
+/*Gallery*/
+div.gallery {
+    border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 0px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.galler img {
+    width: 100%;
+    height: 150px;
+}
+.responsive2 {
+    padding: 0 6px;
+    float: left;
+    width: 50.99999%;
+}
+
+div.desc {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.firstpic {
+    padding: 0 6px;
+    float: right;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+/*trying to center everything*/
+#container {
+  margin: 0 auto;
+  width: 60%;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+
+#nav {
+    display: inline-block;
+    position: fixed;
+    opacity: 1;
+    text-align: center;
+    top:0;
+    width: 60%;
+    z-index: 500; 
+}
