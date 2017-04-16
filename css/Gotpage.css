@@ -8,6 +8,15 @@ p {
 }
 
 /*Nav bar*/
+#nav {
+    
+    position: fixed;
+    opacity: 1;
+    text-align: center;
+    top:0;
+    width: 60%;
+    z-index: 500; 
+}
 ul.top {
     list-style-type: none;
     margin: 0;
@@ -16,10 +25,10 @@ ul.top {
     background-color: white;
   }
 ul.top li {
-    float: left;
+    display: inline-block;
 }
 ul.top li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 10px 16px;
@@ -30,6 +39,9 @@ ul.top li a:hover {
     text-decoration: underline;
 }
 
+@media (max-width:600px){
+.hide-small{display:none!important}
+}
 
 /*Gallery*/
 div.gallery {
@@ -113,12 +125,3 @@ div.desc {
 }
 
 
-#nav {
-    display: inline-block;
-    position: fixed;
-    opacity: 1;
-    text-align: center;
-    top:0;
-    width: 60%;
-    z-index: 500; 
-}
