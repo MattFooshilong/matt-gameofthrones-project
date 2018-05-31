@@ -73,12 +73,10 @@ div.desc {
 }
 
 
-* {
-    box-sizing: border-box;
-}
+
 
 .responsive {
-    padding: 0 6px;
+    padding: 6px;
     float: left;
     width: 24.99999%;
 }
@@ -121,7 +119,10 @@ div.desc {
   margin: 0 auto;
   width: 60%;
   text-align: left;
-  margin-bottom: 0px;
+  
 }
 
 
+#footer{
+    clear:both;
+}
